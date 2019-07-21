@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang = "en">
+  <head>
+  <meta charset="utf-8">
+	<!-- 
+		Final Project
+		Author: Jesse Stokes
+		Date: 9.16.2017
+	-->
+    
+	<script src="modernizr-2.js"></script>
+	<script src="formsubmit.js"></script>
+	<title>Steel Restaurant</title>
+	
+	
+	<link rel = "stylesheet" href = "stylelayer3.css" type = "text/css" />
+	
+
+	
+	
+   </head>
+   
+    <body>
+   
+	
+	
+	<header>
+		<h1>Steel</h1>
+	</header>
+   
+	<nav>
+		<ul>
+			<li><a href = "index.html" title = "Steel Home Page">Home</a></li>
+			<li><a href = "st_ab.html" title = "About Us">About Us </a></li>
+			<li><a href = "st_fo.html" title = "Food Origins">Food Origins</a></li>
+			<li><a href = "st_me.html" title = "Menus">Menus</a></li>
+			<li><a href = "st_sp.html" title = "Specials">Specials</a></li>
+			<li><a href = "st_ev.html" title = "Events">Events</a></li>
+			<li><a href = "st_fi.html" title = "Find Us">Find Us</a></li>
+		</ul>
+	</nav>
+	
+    <aside>
+	
+		<h2>Events</h2>
+
+	<p><a href = "st_ev_re.html" title = "Reservations">Reservations</a></p>
+	<p><a href = "st_ev_ca.html" title = "Catering">Catering</a></p>
+	<p><a href = "st_ev_ba.html" title = "Banquet Room">Banquet Room</a><p>
+	<p><a href = "st_fi_si.html" title = "Sitemap">Site Map</a></p>
+  
+	</aside>
+	
+		<section id = "top">
+	<div id = "formcontainer">
+	
+	<form id = "reservations" name = "reservations" method = "post" action = "javascript:submitform();">
+		
+		<fieldset class = "labelfloatleft"><legend>Reservations</legend>
+			<label for = "firstname">First Name</label>
+			<input type = "text" name = "firstname" id = "firstname" /><br />
+			
+			<label for = "lastname">Last Name</label>
+			<input type = "text" name = "lastname" id = "lastname" /><br />
+			
+			<label for = "emailaddress">Email Address</label>
+			<input type = "email" name = "emailaddress" id = "emailaddress" size = "40"
+			placeholder = "name@anywhere.com" />
+		</fieldset><br />
+		
+		<fieldset><legend>Number of Guests</legend>
+			<label for = "1-4">1-4</label>
+			<input type = "radio" name = "guest" id = "1-4" value = "1-4" />
+			
+			<label for = "5-10">5-10</label>
+			<input type = "radio" name = "guest" id = "5-10" value = "5-10" />
+			
+			<label for = "10ormore">10 or more</label>
+			<input type = "radio" name = "guest" id = "10ormore" value = "10ormore" />
+		</fieldset><br />
+				
+		<fieldset><legend>Event Date</legend>
+			<label for = "date">Date</label>
+			<input type = "text" name = "date" id = "date" class = "text" size = "10" maxlength = "10" />
+				
+			<label for = "time">Time</label>
+			<input type = "text" name = "time" id = "time" class = "text" size = "10" maxlength = "10" />
+		</fieldset><br />
+			
+		<fieldset><legend>Requested Seating Area</legend>
+			<fieldset class = "group">
+				<input type = "checkbox" name = "seating" id = "private" value = "private" checked = "checked" />
+				<label for = "private">Private Seating</label>
+			</fieldset>
+		
+			<fieldset class = "group">
+				<input type = "checkbox" name = "seating" id = "patio" value = "patio" />
+				<label for = "patio">Patio</label>
+			</fieldset>
+		
+			<fieldset class = "group">
+				<input type = "checkbox" name = "seating" id = "banquet" value = "banquet" />
+				<label for = "banquet">Banquet Room</label>
+			</fieldset>
+		</fieldset><br />
+		
+		<fieldset><legend>Special Accomodations</legend>
+			<label for = "message">Message</label><br />
+			<textarea name = "message" id = "message" rows = "10" cols = "45"></textarea>
+		</fieldset><br />
+		
+		<input type = "submit" value = "Send Information" class = "button" />
+		<input type = "reset" value = "Reset" class = "button" />
+		<a href = "#top">Top of Form</a>
+	</form>
+	
+	</div> <!-- end form container -->
+	</section>
+	
+	<section id = "main">
+	
+	<img src="images/catering.jpg" alt="Catering" width = "550" height = "825" />
+	
+	</section><!-- end main section -->
+	
+	
+	
+    <footer>
+	
+		<p>Steel Restaurant &bull; 1355 West Main Street &bull; Anoka, MN 55303</p>
+<p>
+	<a href = "index.html" title = "Steel Home Page">Home</a>
+	<a href = "st_ab.html" title = "About Us">About Us</a>
+	<a href = "st_fo.html" title = "Food Origins">Food Origins</a>
+	<a href = "st_me.html" title = "Menus">Menus</a>
+	<a href = "st_sp.html" title = "Specials">Specials</a>
+	<a href = "st_ev.html" title = "Events">Events</a>
+	<a href = "st_fi.html" title = "Find Us">Find Us</a>
+  
+</p> 
+	
+    </footer>
+	
+	
+	
+	</body>
+</html>
+   
+	

@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang = "en">
+  <head>
+  <meta charset="utf-8">
+	<!-- 
+		Final Project
+		Author: Jesse Stokes
+		Date: 9.16.2017
+	-->
+    
+	<script src="modernizr-2.js"></script>
+	<script src="formsubmit.js"></script>
+	<title>Steel Restaurant</title>
+	
+	
+	<link rel = "stylesheet" href = "stylelayer2.css" type = "text/css" />
+	
+
+	
+	
+   </head>
+   
+    <body>
+   
+	
+	
+	<header>
+		<h1>Steel</h1>
+	</header>
+   
+	<nav>
+		<ul>
+			<li><a href = "index.html" title = "Steel Home Page">Home</a></li>
+			<li><a href = "st_ab.html" title = "About Us">About Us </a></li>
+			<li><a href = "st_fo.html" title = "Food Origins">Food Origins</a></li>
+			<li><a href = "st_me.html" title = "Menus">Menus</a></li>
+			<li><a href = "st_sp.html" title = "Specials">Specials</a></li>
+			<li><a href = "st_ev.html" title = "Events">Events</a></li>
+			<li><a href = "st_fi.html" title = "Find Us">Find Us</a></li>
+		</ul>
+	</nav>
+	
+    <aside>
+	
+	
+		<h2>Find Us</h2>
+
+	<p><a href = "https://www.mapquest.com/us/mn/anoka/55303/1355-w-highway-10-45.214598,-93.415057" title = "Directions">Directions</a></p>
+	<p><a href = "mailto:jessestokesdev@gmail.com" title = "jessestokesdev@gmail.com">Email Us</a>
+	<p><a href = "st_fi_si.html" title = "Sitemap">Site Map</a></p>
+	
+	</aside>
+	
+	<section id = "main">
+	
+	<img src="images/findus.jpg" alt="Find Us" width = "575" height = "500" />
+	
+	</section><!-- end main section -->
+	
+		<div id = "formcontainer">
+	
+	<form id = "reservations" name = "reservations" method = "post" action = "javascript:submitform();">
+	
+	<fieldset><legend>Tell us how we are doing</legend>
+			<label for = "VeryPoor">Very Poor</label>
+			<input type = "radio" name = "guest" id = "VeryPoor" value = "VeryPoor" />
+			
+			<label for = "Poor">Poor</label>
+			<input type = "radio" name = "guest" id = "Poor" value = "Poor" />
+			
+			<label for = "Average">Average</label>
+			<input type = "radio" name = "guest" id = "Average" value = "Average" />
+			
+			<label for = "Good">Good</label>
+			<input type = "radio" name = "guest" id = "Good" value = "Good" />
+			
+			<label for = "VeryGood">Very Good</label>
+			<input type = "radio" name = "guest" id = "VeryGood" value = "VeryGood" />
+		</fieldset><br />
+	
+		<fieldset><legend>Help us improve</legend>
+			<label for = "message">Message</label><br />
+			<textarea name = "message" id = "message" rows = "10" cols = "45"></textarea>
+		</fieldset><br />
+		
+		<input type = "submit" value = "Send Information" class = "button" />
+		<input type = "reset" value = "Reset" class = "button" />
+	</form>
+	</div>
+	
+    <footer>
+	
+		<p>Steel Restaurant &bull; 1355 West Main Street &bull; Anoka, MN 55303</p>
+<p>
+	<a href = "index.html" title = "Steel Home Page">Home</a>
+	<a href = "st_ab.html" title = "About Us">About Us</a>
+	<a href = "st_fo.html" title = "Food Origins">Food Origins</a>
+	<a href = "st_me.html" title = "Menus">Menus</a>
+	<a href = "st_sp.html" title = "Specials">Specials</a>
+	<a href = "st_ev.html" title = "Events">Events</a>
+	<a href = "st_fi.html" title = "Find Us">Find Us</a>
+  
+</p> 
+	
+    </footer>
+	
+	
+	
+	</body>
+</html>
+   
+	
